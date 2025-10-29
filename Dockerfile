@@ -1,4 +1,4 @@
-WAHA_CLEAR_DATA =trueUsa a imagem oficial do WAHA já compilada
+
 FROM devlikeapro/waha:latest
 
 # Variáveis padrão para funcionamento no Render
@@ -10,5 +10,5 @@ ENV PORT=3000
 ENV WAHA_DASHBOARD_ENABLED=true
 ENV WAHA_DASHBOARD_USER=admin
 ENV WAHA_DASHBOARD_PASSWORD=admin
-
+ENV WAHA_CLEAR_DATA=true
 EXPOSE 3000
