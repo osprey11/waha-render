@@ -1,4 +1,4 @@
-# Usa a imagem oficial do WAHA já compilada
+WAHA_CLEAR_DATA =trueUsa a imagem oficial do WAHA já compilada
 FROM devlikeapro/waha:latest
 
 # Variáveis padrão para funcionamento no Render
